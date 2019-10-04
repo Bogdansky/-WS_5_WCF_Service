@@ -42,6 +42,7 @@ namespace ПWS_5_Client
 
             httpClient.Close();
             tcpClient.Close();
+            Console.ReadLine();
         }
     }
 }
